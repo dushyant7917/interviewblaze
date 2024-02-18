@@ -176,7 +176,6 @@ body {
 
 .section {
   padding-top: 30px;
-  margin-top: 90px;
 }
 
 
@@ -395,7 +394,7 @@ Header Style
   padding-right: 30px;
 }
 
-.header-area .main-nav .nav li:nth-child(4) {
+.header-area .main-nav .nav li:nth-child(5) {
   padding-right: 45px !important;
 }
 
@@ -828,9 +827,9 @@ Banner Style
 }
 
 .main-banner:after {
-  content: url(../images/top-image3.png);
+  content: url(../images/top-banner-img.webp);
   top: +20px;
-  right: -30px;
+  right: +350px;
   position: absolute;
   width: 861px;
   height: 746px;
@@ -913,9 +912,9 @@ Services Style
 }
 
 .services::before {
-  content: url(../images/services-left.jpg);
-  top: 120px;
-  left: 0;
+  content: url(../images/services-right.png);
+  top: -10px;
+  left: -80px;
   position: absolute;
   width: 844px;
   height: 714px;
