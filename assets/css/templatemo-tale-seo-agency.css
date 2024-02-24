@@ -463,9 +463,7 @@ Header Style
   padding-right: 30px;
 }
 
-.header-area .main-nav .nav li:nth-child(5) {
-  padding-right: 45px !important;
-}
+.header-area .main-nav .nav li:nth-child(5) {}
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -1943,23 +1941,28 @@ body {
   gap: 16px;
   grid: auto/ auto auto auto;
 }
-.card-mr-1{
+
+.card-mr-1 {
   margin-right: 16px;
 }
-.card-ml-1{
+
+.card-ml-1 {
   margin-left: 16px;
 }
 
 @media (max-width: 767px) {
-  .card-mr-1{
+  .card-mr-1 {
     margin-right: 0px;
   }
-  .card-ml-1{
+
+  .card-ml-1 {
     margin-left: 16px;
   }
+
   .main-banner:after {
     content: none;
   }
+
   .happy-steps-cards {
     display: grid;
     gap: 16px;
